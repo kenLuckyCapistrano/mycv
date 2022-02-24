@@ -12,3 +12,20 @@ content-type: application/json
 ### Find one particular
 
 GET http://localhost:3000/auth/1
+
+### Find all with email
+GET http://localhost:3000/auth?email=ken@lucky.com
+
+
+
+### Delete with id
+DELETE  http://localhost:3000/auth/1
+
+
+### Update user
+PATCH   http://localhost:3000/auth/2
+content-type: application/json
+
+{
+    "password" : "12312"
+}
