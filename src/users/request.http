@@ -11,7 +11,7 @@ content-type: application/json
 
 ### Find one particular
 
-GET http://localhost:3000/auth/1
+GET http://localhost:3000/auth/44
 
 ### Find all with email
 GET http://localhost:3000/auth?email=ken@lucky.com
@@ -19,11 +19,11 @@ GET http://localhost:3000/auth?email=ken@lucky.com
 
 
 ### Delete with id
-DELETE  http://localhost:3000/auth/1
+DELETE  http://localhost:3000/auth/444
 
 
 ### Update user
-PATCH   http://localhost:3000/auth/2
+PATCH   http://localhost:3000/auth/44
 content-type: application/json
 
 {
